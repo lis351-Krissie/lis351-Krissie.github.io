@@ -1,20 +1,183 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<title>Page Title</title>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="">
-<style>
-</style>
-<script src=""></script>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="./css/default.css">
+    <style>
+        main .banner-section .img-box {
+            width: 100vw;
+            height: 300px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            overflow: hidden;
+        }
 
 
-	<!--- Code above this line will not be displayed on the browser --> 
 
-	<body>
 
-		<p> Hello World. My name is Krissie </p>
+        main .information-section {
+            display: flex;
+            justify-content: space-around;
+        }
 
-	</body>
+        main .information-section ul {
+            width: 400px;
+        }
+
+        main .information-section ul li {
+            padding: 20px;
+            padding-left: 0;
+            box-sizing: border-box;
+            border-bottom: 6px solid #a67360;
+            display: flex;
+        }
+        main .information-section ul li dl dt {
+            margin-right: 10px;
+            display: block;
+        }
+
+        li dl dd {
+            display: block;
+            margin-left: 100px;
+        }
+
+        main .information-section ul li .left {
+            margin-right: 10px;
+        }
+
+
+
+        main .information-section {
+            margin-top: 40px;
+        }
+
+        main .information-section .information {
+            width: 800px;
+            background-color: #fff;
+            padding: 10px;
+        }
+
+        main .information-section .information p {
+            font-size: 1.1rem;
+        }
+
+        main .information-section .information h3 {
+            text-align: center;
+            font-weight: 500;
+            margin-bottom: 10px;
+            font-size: 1.8rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <!-- ./image/46732735105_64071e1339_o.jpg CC BY-NC-ND Dwight Coleman Art Deco- Exo Logo -->
+            <img style="width: 100%;" src="./image/46732735105_64071e1339_o.jpg" alt="./image/46732735105_64071e1339_o.jpg CC BY-NC-ND Dwight Coleman Art Deco- Exo Logo">
+        </div>
+        <h1>EXO</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html">HOME</a>
+            </li>
+            <li>
+                <a href="./members.html">Members</a>
+            </li>
+            <li>
+                <a href="./work.html">Works</a>
+            </li>
+            <li>
+                <a href="./awards.html">Awards</a>
+            </li>
+            <li>
+                <a href="./experiences.html">Experiences</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="banner-section">
+            <div class="img-box">
+                <!-- https://upload.wikimedia.org/wikipedia/commons/9/91/Exo_monster_160618_suwon.png CC BY-NC-ND Dwight Coleman Art Deco- Exo Logo -->
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Exo_monster_160618_suwon.png"
+                    style="width: 100%;" alt="https://upload.wikimedia.org/wikipedia/commons/9/91/Exo_monster_160618_suwon.png CC BY-NC-ND Dwight Coleman Art Deco- Exo Logo">
+            </div>
+        </section>
+        <section class="information-section">
+            <ul>
+                <li>
+                    <div class="left">
+                        <p>Group Name:</p>
+                    </div>
+                    <div class="right">
+                        <p style="font-family: sourceCode;">EXO</p>
+                        <p>엑소</p>
+                    </div>
+                </li>
+                <li>
+                    <!--                     <div class="left">
+                        <p>Group Members:</p>
+                    </div>
+                    <div class="right">
+                        <p>Xiumin, Suho, Lay,</p>
+                        <p>Baekhyun, Chen,</p>
+                        <p>Chanyeol, D.O., Kai, Sehun</p>
+                    </div> -->
+                    <dl>
+                        <dt>Group Members:</dt>
+                        <dd>Xiumin, Suho, Lay,</dd>
+                        <dd>Baekhyun, Chen,</dd>
+                        <dd>Chanyeol, D.O., Kai, Sehun</dd>
+                    </dl>
+                </li>
+                <li>
+                    <div class="left">
+                        <p>Active from:</p>
+                    </div>
+                    <div class="right">
+                        <p>2012</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="left">
+                        <p>Lables:</p>
+                    </div>
+                    <div class="right">
+                        <p>SM Entertainment</p>
+                        <p>Avex Trax</p>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="information">
+                <h3>Basic Information</h3>
+                <p>EXO is a South Korean-Chinese boy band based in Seoul. They are noted for
+                    releasing music and performing extensively in Korean, Mandarin and Japanese.</p>
+                <br>
+                <p>The group debuted with twelve members separated into Exo-K (Suho, Baekhyun,
+                    Chanyeol, D.O., Kai and Sehun) and Exo-M (Xiumin, Lay, Chen, Kris, Luhan and Tao).
+                    Members Kris, Luhan, and Tao departed the group individually amid legal battles
+                    with SM Entertainment in 2014 and 2015. Exo-K and Exo-M performed music in
+                    Korean and Mandarin, respectively, until the release of their third EP Overdose in
+                    2014. Since then, Exo have exclusively performed as one group, although their music
+                    continues to feature multiple languages. Members Chen, Baekhyun, and Xiumin
+                    debuted in the sub-unit Exo-CBX in 2016, and members Sehun and Chanyeol began
+                    promoting as the sub-unit Exo-SC in 2019. Each member also maintains solo careers
+                    in music, film and television</p>
+            </div>
+        </section>
+    </main>
+</body>
 
 </html>

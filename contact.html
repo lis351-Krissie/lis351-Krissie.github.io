@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="./css/default.css">
+    <style>
+        main section {
+            padding: 40px;
+        }
+
+        main section form .form-box {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .comment {
+            display: flex;
+            align-items: start;
+        }
+
+        main section form .form-box input {
+            height: 30px;
+            width: 250px;
+            border-radius: 5px;
+        }
+
+        textarea {
+            width: 250px;
+        }
+
+        main section form label {
+            width: 200px;
+            text-align: center;
+            font-size: 1.6rem;
+            font-weight: 600;
+        }
+
+        textarea {
+            border-radius: 10px;
+        }
+
+        .btn-box {
+            width: 450px;
+        }
+
+        .btn {
+            width: 100px;
+            height: 40px;
+            border: 1px solid #000;
+            border-radius: 10px;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <!-- ./image/46732735105_64071e1339_o.jpg CC BY-NC-ND Dwight Coleman Art Deco- Exo Logo -->
+            <img style="width: 100%;" src="./image/46732735105_64071e1339_o.jpg" alt="./image/46732735105_64071e1339_o.jpg CC BY-NC-ND Dwight Coleman Art Deco- Exo Logo">
+        </div>
+        <h1>EXO</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="./index.html">HOME</a>
+            </li>
+            <li>
+                <a href="./members.html">Members</a>
+            </li>
+            <li>
+                <a href="./work.html">Works</a>
+            </li>
+            <li>
+                <a href="./awards.html">Awards</a>
+            </li>
+            <li>
+                <a href="./experiences.html">Experiences</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <form>
+                <div class="form-box id">
+                    <label for="username">
+                        I D:
+                    </label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="form-box password">
+                    <label for="_password">
+                        Password:
+                    </label>
+                    <input type="password" id="_password" name="password">
+                </div>
+                <div class="form-box email">
+                    <label for="_email">
+                        Email:
+                    </label>
+                    <input type="email" id="_email" name="email">
+                </div>
+                <div class="form-box comment">
+                    <label for="comment">
+                        Comment:
+                    </label>
+                    <textarea style="resize:none" name="comment" id="comment" cols="30" rows="10"></textarea>
+                </div>
+                <div class="btn-box">
+                    <div class="btn">
+                        Submit
+                    </div>
+                </div>
+
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
